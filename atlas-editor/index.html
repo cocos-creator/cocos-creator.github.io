@@ -1,8 +1,222 @@
 <html>
 <head>
 <title>Atlas Editor</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #ccc;
+    font: 16px/1.7 normal normal;
+    font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif
+}
+
+.wrapper {
+    width: 860px;
+    margin: 0px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.topbar {
+    text-align: left;
+    padding: 5px 0px;
+    background-color: #333;
+    color: #ddd;
+    height: 43px;
+}
+.topbar a {
+    padding: 5px;
+    display: inline-block;
+    color: #ddd;
+    text-decoration: none;
+}
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav li {
+    display: inline-block;
+    padding-right: 5px;
+    height: 33px;
+    vertical-align: top;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px 0px;
+    background-color: #171717;
+    border-bottom: 1px solid #000;
+}
+.header h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #ddd; 
+    margin: 0px;
+}
+
+.banner {
+    padding: 10px 0 0;
+    width: 100%;
+    text-align: center;
+}
+.banner h2 {
+    margin: 0px;
+    color: #999; 
+}
+.banner button {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #555;
+    border: 1px solid #999;
+    border-radius: 4px;
+    color: #efefef;
+    font-weight: bold;
+}
+.banner .img {
+    background: url(banner.png);
+    height: 320px;
+    width: 860px;
+    margin: 0px auto;
+    margin-top: 60px;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content {
+    margin-top: 60px;
+}
+.column {
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.column.left {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.column.right {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.content .img {
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.img.open-source {
+    background: url(open-source.png);
+    height: 330px;
+}
+.img.cross-platform {
+    background: url(banner.png);
+    height: 330px;
+}
+
+.feature {
+    display: table;
+}
+</style>
+
 </head>
 
 <body>
+<div class="topbar">
+    <div class="wrapper">
+        <ul class="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">Online</a></li>
+            <li><a href="">Documentation</a></li>
+            <li><a href="">Changelog</a></li>
+        </ul>
+        <div class="right">
+            <a href="">Github</a>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="wrapper">
+        <h1>Atlas Editor</h1>
+    </div>
+    <div class="banner">
+        <h2>A free and open source texture packing tool</h2>
+        <button>Download For Mac</button>
+        <div class="img banner"></div>
+    </div>
+</div>
+
+<div class="wrapper content">
+    <p>
+    Atlas Editor 是火盒网络科技公司的游戏引擎研发部门推出的一款免费开源的贴图打包工具。火盒公司自己内部
+    也一直使用这款编辑器用于我们2D游戏的资源打包。请继续扯淡，扯淡，扯扯扯。 请继续扯淡，扯淡，扯扯扯。
+    请继续扯淡，扯淡，扯扯扯。 请继续扯淡，扯淡，扯扯扯。 请继续扯淡，扯淡，扯扯扯。
+    </p>
+
+    <div class="feature">
+        <div class="column left">
+            <div class="img open-source"></div>
+        </div>
+        <div class="column right">
+            <h3>免费开源</h3>
+            <p>
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+            </p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="column left">
+            <h3>支持在线版和多平台客户端版</h3>
+            <p>
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+            </p>
+        </div>
+        <div class="column right">
+            <div class="img cross-platform"></div>
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="column left">
+            <div class="img open-source"></div>
+        </div>
+        <div class="column right">
+            <h3>优秀的自动排布算法</h3>
+            <p>
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+                请继续扯淡，扯淡，扯扯扯。
+            </p>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
