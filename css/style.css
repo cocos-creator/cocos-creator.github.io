@@ -1,0 +1,105 @@
+body {
+  font-family:microsoft yahei;
+  font-size:16px;
+}
+
+.banner {
+  background:url(../image/banner.png);
+  height:776px;
+  background-position: 50% 50%;
+
+}
+
+.advantage {
+  text-align:center;
+  padding:100px 0px;
+}
+
+.advantage p {
+	color: #555;
+}
+
+.subscription {
+  padding-top:100px;
+  padding-bottom:100px;
+  background:#2c3036;
+}
+
+.subscription h2 {
+  color:#fff;
+}
+
+.subscription-info {
+  margin-top:30px;
+  color: #999999;
+}
+
+form {
+  padding-left:0px;
+  padding-right:20px;
+  margin-top:10px;
+}
+
+.btn.btn-default {
+  width:20%;
+  display: block;
+  padding: 15px 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background:#ff7d68;
+  color:#fff;
+  float:left;
+}
+
+.form-control {
+  display:inline-block;
+  float:left;
+  width: 80%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background:none;
+  background-image: none;
+  border: 1px solid #ff7d68;
+  border-left: 0px;
+  border-radius: 0px;
+}
+
+.copyright {
+  background:#24272c;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align:left;
+  color: #999999;
+}
+
+p.copyright {
+	padding-top:30px;
+}
+
+.copyright a {
+  color:#fff;
+  display:block;
+  margin-bottom:10px;
+  font-size:13px;
+}
+
+.sitemap {
+  padding-top:20px;
+}
+
+p.copyright {
+  padding-left:15px;
+}
